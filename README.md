@@ -44,5 +44,7 @@ VGG特征损失 (VGG Feature Loss)
 ![损失曲线](images/Figure_1.png)
 
 # 部分效果
-![]()
-![]()
+![真实视频](images/085000_gt.gif)
+![生成视频](images/085000_sample.gif)<br>
+![](images/083500_recon.gif)
+![](images/085000_recon.gif)
