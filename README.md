@@ -1,9 +1,9 @@
 # 模型结构
 ## 1. 模型概述
 <p style="text-align:center;">
-  <img src="images/model_structure.drawio.png" alt="PNG 描述">
+  <img src="images/model_structure.drawio.png" alt="图片描述">
   <span style="display:inline-block;width:100%;text-align:center;font-size:small;"><sub>模型结构</sub></span>
-</p> <br>
+</p>
 该模型的核心结构为变分自编码器 (Variational Autoencoder, VAE)，旨在通过编码-解码框架对输入数据进行重构。模型由运动网络 (MotionNet)、编码器 (Encoder)、流解码器 (Flow Decoder) 以及可选的细化网络 (RefineNet) 组成，用于在时序数据（如视频帧）中生成连续的帧预测。此外，模型引入了VGG特征损失用于捕捉图像的高级特征信息，增强生成结果的视觉质量。
 
 ## 2. 模型的主要组件
